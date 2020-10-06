@@ -5,11 +5,18 @@
 * [Environnement de développement](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#environnement-de-d%C3%A9veloppement)
 * [Procédure d'installation](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation)
   * [Procédure d'installation Unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation-unity)
-* [Création d'un projet unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-projet-unity)
+  * [Procédure d'installation JoyToKey](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation-de-joytokey)
+* [Création d'un projet Unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-projet-unity)
 * [HelloWorld](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#helloworld)
 * [Création des objets](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-objets)
+  * [Création des sphères](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-sph%C3%A8res)
+  * [Modifier la position des sphères](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#modifier-la-position-des-sph%C3%A8res)
+  * [Création d'un objet vide pour la gestion des couleurs](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-objet-vide-pour-la-gestion-des-couleurs)
 * [Création d'un dossier pour les scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-dossier-pour-les-scripts)
 * [Scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#scripts)
+  * [Créer un script](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9er-un-script)
+  * [Programmation](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#programmation)
+  * [Mettre le script sur GameObject](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#mettre-le-script-sur-gameobject)
 * [Conclusion](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#conclusion)
 
 Projet Unity reprenant la technologie des guitares du projet Epic Wheel Hero.
@@ -152,6 +159,10 @@ Vous devriez obtenir ceci:
 Pour créer un objet vide, suivre le chemin suivant. (C'est presque la même chose que pour les sphères)
 
 GameObject -> Create Empty
+
+Renommer le GameObject *Gestion Couleur Sphères*
+
+Cet objet contiendra le script pour gérer les couleurs.
 
 ## Création d'un dossier pour les scripts
 
