@@ -47,7 +47,7 @@ Installer les outils suivants :
 6. Ouvrir l’explorateur de fichiers et se déplacer vers le répertoire suivant :
    C:\Users\’nom d’utilisateur’\Documents\JoyToKey
 
-7. Mettre le fichier [EpicWheelHero.cfg](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\Fichier supp) dans le dossier JoyToKey. Il permet d'importer une configuration déjà faite.
+7. Mettre le fichier [EpicWheelHero.cfg](Fichier supp/EpicWheelHero.cfg) dans le dossier JoyToKey. Il permet d'importer une configuration déjà faite.
 
 8. Fermer JoyToKey, clic droit sur l’icône dans la barre des tâches puis `Terminate JoyToKey`.
 
@@ -67,11 +67,11 @@ Installer les outils suivants :
 
 2. Cliquer sur le bouton New.
 
-   ![New](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\new.PNG)
+   ![New](image/new.PNG)
 
 3. Vérifier que la version de Unity est bien en 2019.3.15f1 (En haut à gauche de la fenêtre)
 
-   ![New](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\new2.PNG)
+   ![New](image/new2.PNG)
 
 4. Donner un nom au projet (Guitare-HelloWorld) et choisir l'emplacement de celui-ci (Vous pouvez créer un dossier dans `C:\Users\admin\Documents` comme dans l'exemple).
 
@@ -79,7 +79,7 @@ Installer les outils suivants :
 
 En ouvrant le projet, vous arriverez à cette fenêtre-là.
 
-![Fenêtre de base](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\fenetre_base.PNG)
+![Fenêtre de base](image/fenetre_base.PNG)
 
 ## Création des objets
 
@@ -91,17 +91,17 @@ Pour créer les 4 sphères, suivre la procédure suivante.
 
    Gameobject -> 3D Object -> Sphere
 
-   ![Création Sphères](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\sphere.png)
+   ![Création Sphères](image/sphere.png)
 
 2. Créer les 4 sphères pour le jeu
 
 3. Vous obtiendrez la fenêtre suivante.
 
-   ![Après la création des sphères](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\apres_creation_sphere.PNG)
+   ![Après la création des sphères](image/apres_creation_sphere.PNG)
 
 4. Vous pouvez renommer les 4 sphères en faisant *clic droit* sur chaque nom de sphère sur la fenêtre à gauche.
 
-   ![Renommer les sphères](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\renommer_sphere.png)
+   ![Renommer les sphères](image/renommer_sphere.png)
 
 5. Vous pouvez mettre les noms suivants pour chaque sphère:
 
@@ -116,7 +116,7 @@ Comme les 4 sphères sont les unes sur les autres, il faut modifier un peu leur 
 
 Normalement, si vous cliquez sur les sphères dans la fenêtre de jeu ou sur les noms à gauche, une fenêtre appelée *Inspector* à droite apparait.
 
-![Inspector](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\inspector.PNG)
+![Inspector](image/inspector.PNG)
 
 Dans la ligne *Position* dans le *Transform* tout en haut de l'*Inspector*, vous pouvez mettre toutes les sphères à 0 si elles ne le sont pas déjà:
 
@@ -133,7 +133,7 @@ Une fois ceci fait, vous pouvez mettre les valeurs suivantes en position X:
 
 Vous devriez obtenir ceci:
 
-![Position des sphères](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\position_sphere.PNG)
+![Position des sphères](image/position_sphere.PNG)
 
 ### Création d'un objet vide pour la gestion des couleurs
 
@@ -145,7 +145,7 @@ GameObject -> Create Empty
 
 Faire clic droit sur le dossier *Assets* en bas à gauche de la fenêtre, aller sur *Create* et sélectionner *Folder*
 
-![Création d'un dossier](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\creation_dossier.png)
+![Création d'un dossier](image/creation_dossier.png)
 
 Ensuite, renommer le dossier avec le nom *Scripts*
 
@@ -297,23 +297,23 @@ Ouvrir le fichier précédemment créé.
 
 3. Recherchez *Manage Colors* et sélectionner le script.
 
-   ![Sélection d'un script pour l'ajouter au gameObject](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\New_Script.png)
+   ![Sélection d'un script pour l'ajouter au gameObject](image/New_Script.png)
 
 4. Vous devriez voir apparaître alors le script.
 
-   ![Affichage du script dans le GameObject](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\Affichage_Ajout_Script.png)
+   ![Affichage du script dans le GameObject](image/Affichage_Ajout_Script.png)
 
 5. Ensuite, il faut ajouter les sphères au script. Cliquer sur le petit cercle au bout de la ligne.
 
-   ![Ajout des sphères, étape 1](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\ajout_sphere_script.png)
+   ![Ajout des sphères, étape 1](image/ajout_sphere_script.png)
 
 6. Double-cliquer sur la sphère voulue dans la fenêtre qui vient d'apparaître.
 
-   ![Ajout des sphères, étape 2](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\ajout_sphere_script2.png)
+   ![Ajout des sphères, étape 2](image/ajout_sphere_script2.png)
 
 7. A la fin, vous devriez obtenir ceci :
 
-   ![Ajout des sphères, étape finale](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\ajout_sphere_script_fin.png)
+   ![Ajout des sphères, étape finale](image/ajout_sphere_script_fin.png)
 
 # Conclusion
 
