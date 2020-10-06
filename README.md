@@ -2,14 +2,15 @@
 
 ## Sommaire
 
-[Environnement de développement](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#environnement-de-d%C3%A9veloppement)
-[Procédure d'installation](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation)
-[Création d'un projet unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-projet-unity)
-[HelloWorld](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#helloworld)
-[Création des objets](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-objets)
-[Création d'un dossier pour les scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-dossier-pour-les-scripts)
-[Scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#scripts)
-[Conclusion](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#conclusion)
+* [Environnement de développement](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#environnement-de-d%C3%A9veloppement)
+* [Procédure d'installation](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation)
+* [Création d'un projet unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-projet-unity)
+* [HelloWorld](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#helloworld)
+* [Création des objets](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-objets)
+* [Création d'un dossier pour les scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-dossier-pour-les-scripts)
+* [Scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#scripts)
+* [Conclusion](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#conclusion)
+
 Projet Unity reprenant la technologie des guitares du projet Epic Wheel Hero.
 
 Sources:
