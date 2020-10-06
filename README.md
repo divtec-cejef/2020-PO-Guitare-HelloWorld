@@ -26,7 +26,7 @@ Installer les outils suivants :
 
 3. Télécharger et installer la version 2019.3.15 en cliquant sur Unity HUB.
 
-   ![VersionUnity](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\2019315.PNG)
+   ![VersionUnity](image/2019315.PNG)
 
 4. Lors de la sélection des modules supplémentaire, ne cocher que Visual studio 2019.
 
@@ -55,7 +55,7 @@ Installer les outils suivants :
 
 10. Appuyer sur le bouton qui « tourne en rond » pour faire la connexion
 
-    ![Guitare](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\image\guitare_bouton.png)
+    ![Guitare](image/guitare_bouton.png)
 
 11. Appuyez sur une touche avec la guitare. La case « Joystick 1 » devrait se colorier.
 
