@@ -22,7 +22,7 @@ Installer les outils suivants :
 
 2. Aller chercher dans les [archives Unity](https://unity3d.com/fr/get-unity/download/archive) les versions 2019.x.
 
-   ![Archives](C:\Users\admin\Documents\GitHub\2020-PO-Guitare-HelloWorld\/image/2019x.PNG)
+   ![Archives](image/2019x.PNG)
 
 3. Télécharger et installer la version 2019.3.15 en cliquant sur Unity HUB.
 
