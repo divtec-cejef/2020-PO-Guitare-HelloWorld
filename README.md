@@ -1,5 +1,15 @@
 # 2020-PO-Guitare-HelloWorld
 
+## Sommaire
+
+[Environnement de développement](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#environnement-de-d%C3%A9veloppement)
+[Procédure d'installation](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation)
+[Création d'un projet unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-projet-unity)
+[HelloWorld](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#helloworld)
+[Création des objets](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-objets)
+[Création d'un dossier pour les scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-dossier-pour-les-scripts)
+[Scripts](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#scripts)
+[Conclusion](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#conclusion)
 Projet Unity reprenant la technologie des guitares du projet Epic Wheel Hero.
 
 Sources:
@@ -75,7 +85,7 @@ Installer les outils suivants :
 
 4. Donner un nom au projet (Guitare-HelloWorld) et choisir l'emplacement de celui-ci (Vous pouvez créer un dossier dans `C:\Users\admin\Documents` comme dans l'exemple).
 
-# Projet
+# Hello World
 
 En ouvrant le projet, vous arriverez à cette fenêtre-là.
 
@@ -149,7 +159,7 @@ Faire clic droit sur le dossier *Assets* en bas à gauche de la fenêtre, aller 
 
 Ensuite, renommer le dossier avec le nom *Scripts*
 
-## Script
+## Scripts
 
 ### Créer un script
 
