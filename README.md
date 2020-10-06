@@ -297,7 +297,7 @@ Ouvrir le fichier précédemment créé.
 
 3. Recherchez *Manage Colors* et sélectionner le script.
 
-   ![Sélection d'un script pour l'ajouter au gameObject](image/New_Script.png)
+   ![Sélection d'un script pour l'ajouter au gameObject](image/New_script.png)
 
 4. Vous devriez voir apparaître alors le script.
 
