@@ -156,9 +156,9 @@ Vous devriez obtenir ceci:
 
 ### Création d'un objet vide pour la gestion des couleurs
 
-Pour créer un objet vide, suivre le chemin suivant. (C'est presque la même chose que pour les sphères)
+Pour créer un objet vide, suivre le chemin suivant :
 
-*GameObject* puis *Create Empty*
+*GameObject* puis *Create Empty*. 
 
 Renommer le GameObject *Gestion Couleur Sphères*
 
