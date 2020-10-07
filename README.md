@@ -343,3 +343,7 @@ Ouvrir le fichier précédemment créé.
 # Conclusion
 
 Une fois, toutes les étapes terminées, il suffit de lancer le jeu et appuyer sur les différentes touches et les couleurs apparaîtront ou disparaîtront.
+
+------------
+
+[Haut de la page](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld/blob/main/README.md#2020-po-guitare-helloworld)
