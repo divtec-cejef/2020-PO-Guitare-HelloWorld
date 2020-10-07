@@ -66,7 +66,7 @@ Installer les outils suivants :
 6. Ouvrir l’explorateur de fichiers et se déplacer vers le répertoire suivant :
    C:\Users\’nom d’utilisateur’\Documents\JoyToKey
 
-7. Mettre le fichier [EpicWheelHero.cfg](Fichier supp/EpicWheelHero.cfg) dans le dossier JoyToKey. Il permet d'importer une configuration déjà faite.
+7. Mettre le fichier [EpicWheelHero.cfg](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld/blob/main/Fichier%20supp/EpicWheelHero.cfg) dans le dossier JoyToKey. Il permet d'importer une configuration déjà faite.
 
 8. Fermer JoyToKey, clic droit sur l’icône dans la barre des tâches puis `Terminate JoyToKey`.
 
