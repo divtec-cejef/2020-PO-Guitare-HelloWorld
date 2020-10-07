@@ -160,7 +160,7 @@ Pour créer un objet vide, suivre le chemin suivant :
 
 *GameObject* puis *Create Empty*. 
 
-![Mpty](image/mpty.PNG)
+![Mpty](image/mpty.png)
 
 Renommer le GameObject *Gestion Couleur Sphères*
 
