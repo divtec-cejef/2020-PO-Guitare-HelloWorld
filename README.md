@@ -248,7 +248,7 @@ Ouvrir le fichier précédemment créé.
 3. La fonction *Update()* est la partie principale du code. Elle contient le code qui va s'exécuter pour le changement de couleur.
 
    ```c#
-   void Start()
+   void Update()
    {
        // Vérifie la touche pressé
                switch (Input.inputString)
