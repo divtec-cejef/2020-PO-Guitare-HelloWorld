@@ -119,7 +119,7 @@ Pour créer les 4 sphères, suivre la procédure suivante.
 
    ![Après la création des sphères](image/apres_creation_sphere.PNG)
 
-4. Vous pouvez renommer les 4 sphères en faisant *clic droit* sur chaque nom de sphère sur la fenêtre à gauche.
+4. Vous pouvez renommer les 4 sphères en faisant *clic droit* sur chaque nom de sphère sur la fenêtre à gauche puis *Rename*.
 
    ![Renommer les sphères](image/renommer_sphere.png)
 
@@ -134,7 +134,7 @@ Pour créer les 4 sphères, suivre la procédure suivante.
 
 Comme les 4 sphères sont les unes sur les autres, il faut modifier un peu leur position.
 
-Normalement, si vous cliquez sur les sphères dans la fenêtre de jeu ou sur les noms à gauche, une fenêtre appelée *Inspector* à droite apparait.
+Normalement, si vous cliquez sur les sphères dans la fenêtre de jeu ou sur les noms à gauche, une fenêtre appelée *Inspector* à droite apparait. Sinon, il faut cliquer sur les 3 points en haut à droite (sur l'image) et choisir *Add Tab* -> *Inspector*.
 
 ![Inspector](image/inspector.PNG)
 
@@ -181,7 +181,7 @@ Ensuite, renommer le dossier avec le nom *Scripts*
 
 Faire un clic droit sur le dossier *Scripts*, *Create* puis *C# Script*.
 
-Une fois créé, renommer avec le nom *ManageColors*.
+Une fois créé, nommez-le avec le nom *ManageColors*.
 
 ### Programmation
 
@@ -222,94 +222,101 @@ Ouvrir le fichier précédemment créé.
 2. L'initialisation des variables se fait dans la fonction *Start()*. (Cette fonction est juste appelé au démarrage de la scène)
 
    ```c#
-   // Initialisation des booléens
-   isBallGreen = false;
-   isBallYellow = false;
-   isBallRed = false;
-   isBallBlue = false;
+    // Start is called before the first frame update
+   void Start()
+   {
+       // Initialisation des booléens
+       isBallGreen = false;
+       isBallYellow = false;
+       isBallRed = false;
+       isBallBlue = false;
    
-   // Initialisation des Materials pour la couleur des sphères
-   greenSphereMat = greenSphere.GetComponent<Renderer>().material;
-   yellowSphereMat = yellowSphere.GetComponent<Renderer>().material;
-   redSphereMat = redSphere.GetComponent<Renderer>().material;
-   blueSphereMat = blueSphere.GetComponent<Renderer>().material;
+       // Initialisation des Materials pour la couleur des sphères
+       greenSphereMat = greenSphere.GetComponent<Renderer>().material;
+       yellowSphereMat = yellowSphere.GetComponent<Renderer>().material;
+       redSphereMat = redSphere.GetComponent<Renderer>().material;
+       blueSphereMat = blueSphere.GetComponent<Renderer>().material;
    
-   // Initialisation de la couleur des sphères
-   greenSphereMat.color = Color.white;
-   yellowSphereMat.color = Color.white;
-   redSphereMat.color = Color.white;
-   blueSphereMat.color = Color.white;
+       // Initialisation de la couleur des sphères
+       greenSphereMat.color = Color.white;
+       yellowSphereMat.color = Color.white;
+       redSphereMat.color = Color.white;
+       blueSphereMat.color = Color.white;
+   }
    ```
 
 3. La fonction *Update()* est la partie principale du code. Elle contient le code qui va s'exécuter pour le changement de couleur.
 
    ```c#
-   // Vérifie la touche pressé
-           switch (Input.inputString)
-           {
-               case "r":
-                   // Vérifie si la sphère verte est déjà colorée
-                   if (isBallGreen)
-                   {
+   void Start()
+   {
+       // Vérifie la touche pressé
+               switch (Input.inputString)
+               {
+                   case "r":
+                       // Vérifie si la sphère verte est déjà colorée
+                       if (isBallGreen)
+                       {
+                           greenSphereMat.color = Color.white;
+                           isBallGreen = false;
+                       }
+                       // Sinon la colorie
+                       else
+                       {
+                           greenSphereMat.color = Color.green;
+                           isBallGreen = true;
+                       } break;
+   
+                   case "q":
+                       // Vérifie si la sphère jaune est déjà colorée
+                       if (isBallYellow)
+                       {
+                           yellowSphereMat.color = Color.white;
+                           isBallYellow = false;
+                       }
+                       // Sinon la colorie
+                       else
+                       {
+                           yellowSphereMat.color = Color.yellow;
+                           isBallYellow = true;
+                       } break;
+   
+                   case "w":
+                       // Vérifie si la sphère rouge est déjà colorée
+                       if (isBallRed)
+                       {
+                           redSphereMat.color = Color.white;
+                           isBallRed = false;
+                       }
+                       // Sinon la colorie
+                       else
+                       {
+                           redSphereMat.color = Color.red;
+                           isBallRed = true;
+                       } break;
+   
+                   case "e":
+                       // Vérifie si la sphère bleue est déjà colorée
+                       if (isBallBlue)
+                       {
+                           blueSphereMat.color = Color.white;
+                           isBallBlue = false;
+                       }
+                       else
+                       // Sinon la colorie
+                       {
+                           blueSphereMat.color = Color.blue;
+                           isBallBlue = true;
+                       } break;
+   
+                   case "t":
+                       // Change la couleur de toutes les sphères en blanc.
                        greenSphereMat.color = Color.white;
-                       isBallGreen = false;
-                   }
-                   // Sinon la colorie
-                   else
-                   {
-                       greenSphereMat.color = Color.green;
-                       isBallGreen = true;
-                   } break;
-   
-               case "q":
-                   // Vérifie si la sphère jaune est déjà colorée
-                   if (isBallYellow)
-                   {
                        yellowSphereMat.color = Color.white;
-                       isBallYellow = false;
-                   }
-                   // Sinon la colorie
-                   else
-                   {
-                       yellowSphereMat.color = Color.yellow;
-                       isBallYellow = true;
-                   } break;
-   
-               case "w":
-                   // Vérifie si la sphère rouge est déjà colorée
-                   if (isBallRed)
-                   {
                        redSphereMat.color = Color.white;
-                       isBallRed = false;
-                   }
-                   // Sinon la colorie
-                   else
-                   {
-                       redSphereMat.color = Color.red;
-                       isBallRed = true;
-                   } break;
-   
-               case "e":
-                   // Vérifie si la sphère bleue est déjà colorée
-                   if (isBallBlue)
-                   {
                        blueSphereMat.color = Color.white;
-                       isBallBlue = false;
-                   }
-                   else
-                   // Sinon la colorie
-                   {
-                       blueSphereMat.color = Color.blue;
-                       isBallBlue = true;
-                   } break;
-   
-               case "t":
-                   // Change la couleur de toutes les sphères en blanc.
-                   greenSphereMat.color = Color.white;
-                   yellowSphereMat.color = Color.white;
-                   redSphereMat.color = Color.white;
-                   blueSphereMat.color = Color.white;
-                   break;
+                       break;
+               }
            }
    ```
 
