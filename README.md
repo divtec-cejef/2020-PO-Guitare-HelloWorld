@@ -7,7 +7,7 @@
   * [Procédure d'installation Unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation-unity)
   * [Procédure d'installation JoyToKey](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#proc%C3%A9dure-dinstallation-de-joytokey)
 * [Création d'un projet Unity](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-dun-projet-unity)
-* [HelloWorld](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#helloworld)
+* [Projet](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#projet)
 * [Création des objets](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-objets)
   * [Création des sphères](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#cr%C3%A9ation-des-sph%C3%A8res)
   * [Modifier la position des sphères](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#modifier-la-position-des-sph%C3%A8res)
@@ -94,7 +94,7 @@ Installer les outils suivants :
 
 4. Donner un nom au projet (Guitare-HelloWorld) et choisir l'emplacement de celui-ci (Vous pouvez créer un dossier dans `C:\Users\admin\Documents` comme dans l'exemple).
 
-# Hello World
+# Projet
 
 En ouvrant le projet, vous arriverez à cette fenêtre-là.
 
