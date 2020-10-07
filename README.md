@@ -158,7 +158,7 @@ Vous devriez obtenir ceci:
 
 Pour créer un objet vide, suivre le chemin suivant. (C'est presque la même chose que pour les sphères)
 
-GameObject -> Create Empty
+*GameObject* puis *Create Empty*
 
 Renommer le GameObject *Gestion Couleur Sphères*
 
