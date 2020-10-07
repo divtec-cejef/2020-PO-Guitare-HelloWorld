@@ -57,7 +57,7 @@ Installer les outils suivants :
 
 2. Installer le logiciel.
 
-3. Brancher l'adaptateur USB au PC.
+3. Brancher l'adaptateur USB de la guitare au PC.
 
 4. Attendre que les drivers s'installent.
 
