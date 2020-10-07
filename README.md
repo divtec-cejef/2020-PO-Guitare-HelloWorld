@@ -20,6 +20,7 @@
 * [Conclusion](https://github.com/divtec-cejef/2020-PO-Guitare-HelloWorld#conclusion)
 
 Projet Unity reprenant la technologie des guitares du projet Epic Wheel Hero.
+Le but sera de créer 4 sphères qui prendront chacune l'une des couleurs correspondant aux touches appuyées sur la guitare !
 
 Sources:
 
